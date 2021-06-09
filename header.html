@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Undertale es una página creada con la intención de informar al fandom sobre varios datos curiosos que los podría ayudar en el juego.">
+       <meta name="author" content="Yeradmel">
+       <meta name="copyright" content="empresas yerevin UwU">
+       <meta name="robots" content="index">
+    <title>Header</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+    	@font-face {
+	font-family: 'MonsterFriendFore';
+	src: url(MonsterFriendFore.ttf) format("truetype"), url(MonsterFriendBack.otf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: black;
+	color: #fff;
+}
+
+header {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	
+}
+.div__img-undertale {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav {
+	border-bottom: 10px solid #ab0000;
+	border-top: 10px solid #ab0000;
+	height: 5em;
+	width: 100%;
+	display: inline-block;
+	
+}
+
+.nav__ul {
+	margin-top: 1em;
+	text-align: center;
+	font-family: verdana, Geneva;
+}
+
+.nav__li {
+	padding: 5px 30px;
+	list-style: none;
+	font-size: 25px;
+	border-top: 2px solid red;
+	margin: 10px 10px 0 10px;
+	cursor: pointer;
+	display: inline;
+}
+
+.redirección { 
+	position: relative;
+	transition: all 0.7s;
+	text-decoration: none;
+	color: darkblue;
+}
+.redirección:hover {
+	position: relative;
+	color: blue;
+}
+    </style>
+
+</head>
+<body>
+
+	<header>
+
+      <div class="div__img-undertale"><img src="imagenes/undertale.jpg"></div>
+
+      <div class="clearfix"></div>
+      
+    </header>
+
+
+    <nav>
+        <ul class="nav__ul">
+            <li class="nav__li"><a class="redirección" href="index.html" target="_parent">Inicio</a></li>
+            <li class="nav__li"><a class="redirección" href="personajes.html" target="_parent">Personajes</a></li>
+            <li class="nav__li"><a class="redirección" href="soundtracks.html" target="_parent">Soundtracks</a></li>
+        </ul>
+      </nav>
+
+
+</body>
+</html>

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Undertale es una página creada con la intención de informar al fandom sobre varios datos curiosos que los podría ayudar en el juego.">
+       <meta name="author" content="Yeradmel">
+       <meta name="copyright" content="empresas yerevin UwU">
+       <meta name="robots" content="index">
+    <title>Undertale</title>
+    <link rel="shortcut icon" href="imagenes/heart.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+      
+@font-face {
+  font-family: 'MonsterFriendFore';
+  src: url(MonsterFriendFore.ttf) format("truetype"), url(MonsterFriendBack.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: darkblue;
+}
+
+header {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 100%;
+  
+}
+.div__img-undertale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  color: white;
+  font-family: 'MonsterFriendFore', verdana ,  Geneva;
+}
+header h2 {
+  font-size: 1em;
+  text-align: center;
+  color: white;
+  font-family: verdana, Geneva;
+}
+
+
+nav {
+  border-bottom: 10px solid #ab0000;
+  border-top: 10px solid #ab0000;
+  height: 5em;
+  width: 100%;
+  display: inline-block;
+  position: sticky;
+  z-index: 200;
+  top: 0;
+}
+
+.nav__ul {
+  margin-top: 1em;
+  text-align: center;
+  font-family: verdana, Geneva;
+}
+
+.nav__li {
+  padding: 5px 30px;
+  list-style: none;
+  font-size: 25px;
+  border-top: 2px solid red;
+  margin: 10px 10px 0 10px;
+  cursor: pointer;
+  display: inline;
+  
+}
+
+.redirección { 
+  position: relative;
+  transition: all 0.7s;
+  text-decoration: none;
+}
+.redirección:hover {
+  position: relative;
+  color: blue;
+}
+
+.clearfix {
+  clear: both;
+}
+
+article {
+  color: #fff;
+}
+
+article h2 {
+  font-family: 'MonsterFriendFore';
+  font-size: 2em;
+  color: #fff;
+  margin: 1em;
+  text-align: center;
+}
+
+section article p {
+  font-family: Roboto, geneva;
+  margin: 1em 0.8em 0 0.8em; 
+  color: #fff;
+  text-align: justify;
+}
+
+.caja_éxito {
+  width: 560px;
+  margin: 1em auto;
+}
+
+.éxito-undertale {
+  width:  560px;
+  height: 315px;
+  margin: auto;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+}
+
+.izq-img {
+  float: left;
+  margin: 0 1em 0 1em;
+}
+
+
+.rutas {
+  display: block;
+}
+
+.rutas__H3{
+  margin-left: 1em;
+  font-size: 2em;
+  color: red;
+  font-family: neutral-serif;
+}
+
+.rutas__P{
+  font-family: Roboto, geneva;
+  margin: 0.5em 0.7em 0 0.7em; 
+  color: #fff;
+  text-align: justify;
+}
+
+.rutas__img {
+  width: 470px;
+  margin-top: 1em;
+}
+.content-list {
+  width: 100%;
+  text-align: center;
+  
+}
+.list-pers {
+  width: 6em;
+  margin: auto;
+  position: relative;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.list-rutas__ul {
+  margin-top: 1em;
+  font-family: verdana, Geneva;
+  text-align: left;
+}
+
+.list-rutas__li {
+  color: blue;
+  list-style: circle;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0.5em;
+  
+}
+
+.list-rutas__a { 
+  color: red;
+}
+
+.list-rutas__a:hover {
+  position: relative;
+  left: 7px;
+}
+
+.rutas__ul {
+  margin: 1em 0 0 3em;
+}
+
+.rutas__li {
+  color: #ab0000;
+}
+
+.rutas__li p {
+  color: #fff;
+  margin: 5px;
+}
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+
+      <h1>Wiki Fandom</h1>
+
+      <h2>sobre:</h2>
+
+      <div class="div__img-undertale"><img src="imagenes/undertale.jpg"></div>
+
+      <div class="clearfix"></div>
+      
+    </header>
+
+
+    <nav>
+        <ul class="nav__ul">
+            <li class="nav__li"><a class="redirección" href="index.html">Inicio</a></li>
+            <li class="nav__li"><a class="redirección" href="personajes.html">Personajes</a></li>
+            <li class="nav__li"><a class="redirección" href="soundtracks.html">Soundtracks</a></li>
+        </ul>
+      </nav>
+
+  <div class="clearfix"></div>
+
+    <section id="Inicio">
+      <article class="introducción">
+          <h2 class="introducción__h2">¿Que es undertale?</font></h2>
+          <p class="introducción__p">Undertale es un videojuego de rol creado por el desarrollador independiente Toby Fox, en el que se adopta el control de un niño humano que ha caído en un mundo subterráneo conocido como el subsuelo, una región enorme aislada debajo de la superficie de la tierra, separada por una barrera mágica. A lo largo de la partida se encuentra con varios monstruos durante la misión de regresar a la superficie, principalmente a través del sistema de combate; navegando a través de mini ataques bullet hell del adversario y optar por pacificar o someter a los monstruos para salvarlos en lugar de   matarlos. Estas opciones afectan a la jugabilidad, los diálogos, los rutas y la historia, cambiando en función de los  resultados.</p>
+
+          <p>Fuera de algunas ilustraciones, Fox desarrolló la totalidad del juego por sí mismo, incluido el guion y la música. El juego se inspiró en varias fuentes. Estos incluyen la serie de juegos de rol Mother, Brandish y Mario & Luigi, la serie bullet hell Touhou Project y el programa de comedia británico Mr. Bean. Originalmente, Undertale debía tener una duración de dos horas y estaba programado para ser lanzado a mediados de 2013. Sin embargo, previo a su lanzamiento, el desarrollo se retrasó durante tres años.</p>
+
+      </article>
+
+       <div class="caja_éxito">
+
+      <iframe class="éxito-undertale" src="https://www.youtube.com/embed/xszn5outQ6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+
+      </div>
+
+        <article>
+        
+        <h2>Historia</h2>
+
+        <img src="imagenes/guerra.jpg" class="izq-img" title="Guerra_M&S">
+
+        <p>La historia de Undertale toma lugar en el subsuelo, un reino en el que los monstruos fueron desterrados después de que la guerra empezase entre ellos y los humanos. El subsuelo fue sellado con una barrera mágica con el único punto de entrada en el Monte Ebott. El juego empieza con un niño que se ha caído al subsuelo. Se encuentra con Flowey, una flor que le enseña al joven la mecánica del juego y le incita a que suba su «LV», o «LOVE». Cuando Flowey intenta asesinar al humano para conseguir su alma, el humano es rescatado por una monstruo cabra con instinto maternal llamada Toriel, quien le enseña al niño cómo resolver puzles y cómo resolver los conflictos en el mundo subterráneo sin matar a nadie. Ella le revelará su intención de adoptarlo para que viva con ella en las Ruinas para siempre, y así protegerlo de Asgore Dreemurr, el rey del subsuelo.</p>
+
+        <p>El humano finalmente abandona Toriel para buscar el castillo de Asgore, que contiene la barrera que conduce al mundo de la superficie. En el camino, el humano se encuentra con varios monstruos, incluidos los esqueletos Sans y Papyrus, dos hermanos que actúan como centinelas del bosque Snowdin; Undyne, la jefa de la guardia real; Alphys, la científica real del reino; y Mettaton, un presentador de televisión robótico creado por Alphys. Algunos de ellos son combatidos, y el humano tiene que elegir entre matarlos o mostrar misericordia; si el humano los perdona, pueden optar por hacerse amigos. Durante sus viajes, el humano aprende la causa de la guerra entre humanos y monstruos. Asriel, el hijo de Asgore y Toriel, se hizo amigo del primer niño humano que cayó al subterráneo y fue adoptado por ellos. Un día, el niño se suicidó comiendo flores venenosas. Cuando Asriel devolvió su cuerpo a los humanos, lo atacaron y lo hirieron fatalmente, lo que provocó que Asgore declarara la guerra. Asgore ahora busca romper la barrera, lo que le obliga a recolectar siete almas humanas, de las cuales tiene seis.</p>
+
+      </article>
+
+      <article>
+
+      <h2 class="rutas">Rutas</h2>
+
+    <div class="content-list">
+      <div class="list-pers">
+
+        <ul class="list-rutas__ul" >
+          <li class="list-rutas__li">
+            <a class="list-rutas__a" href="#neutral">Neutral</a>
+         </li>
+
+          <li class="list-rutas__li">
+            <a class="list-rutas__a" href="#pacifista">Pacifista</a>
+          </li>
+
+          <li class="list-rutas__li">
+           <a class="list-rutas__a" href="#genocida">Genocida</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+      <div id="neutral">
+
+        <h3 class="rutas__H3">Neutral</h3>
+
+          <p class="rutas__P">Al estar apunto de terminar el juego, cuando nos enfrentamos al rey Asgore, el rey apunto de morir nos confiesa que el no quiere luchar, que solo lo hizo por el bienestar de su reino,pero en ese momento flowey lo ataca, matando al rey y absorbe las humanas convirtiéndose en omega flowey,aqui es cuando descubrimos que los archivos de guardado son importantes para el juego y no un simple checkpoint, para este final necesitamos</p>
+
+          <ul class="rutas__ul">
+            <li class="rutas__li"><p>No ser amigo de al menos un personaje importante para la trama (Papyrus, Undyne o Alphys)</p></li>
+            <li class="rutas__li"><p>Matar al menos a un monstruo.</p></li>
+            <li class="rutas__li"><p>No completar la ruta genocida</p></li>
+          </ul>
+
+          <p class="rutas__P">Este final al ser el primero es importante ya que asi como el inicio que nos contaron lo que paso en la superficie (la historia de chara y asriel).</p>
+
+           <center>
+            <img src="imagenes/neutral.jpg" title="neutral" class="rutas__img"> 
+          </center>
+
+        </div>
+
+        <div id="pacifista">
+
+          <h3 class="rutas__H3" >Pacifista</h3>
+
+          <p class="rutas__P">Después de derrotar a omega flowey, flowey aparece normal y hablándole a frisk(nosotros los jugadores) proponiéndonos que si hacemos una ruta completa sin matar a nadie nos contaría por que hizo tanto daño.</p>
+
+           <ul class="rutas__ul">
+            <li class="rutas__li"><p>Haber terminado una vez el juego por la ruta neutral.</p></li>
+            <li class="rutas__li"><p>No haber matado a ningún enemigo, y por ende no haber ganado EXP ni subido el LV.</p></li>
+            <li class="rutas__li"><p>Ser amigo de todos los personajes importantes Papyrus, Undyne y Alphys,entre otros, solo que en este final aparece un jefe extra</p></li>
+          </ul>
+
+          <p class="rutas__P">lo interesante de este final es que cuando flowey nos confiesa su historia, menciona no arrepentirse, cuando asgore se enfrenta a nosotros toriel lo detiene diciéndole que no hay que pelear, en este punto todos los mounstros se reúnen y conviven, pero aparece flowey, intentan detener a loa flor pero el dice:</p>
+
+          <p class="rutas__P">"ya es suficiente"</p>
+
+          <p class="rutas__P">Ahí es donde flowey absorbe las almas humanas convirtiéndose en asriel dremurr y teniendo una pelea en donde el perdón y la esperanza son la prioridad.</p>
+
+
+          <center>
+            <img src="imagenes/pacifista.jpg" title="pacifista" class="rutas__img"> 
+          </center>
+
+        </div>
+
+        <div id="genocida">
+          
+          <h3 class="rutas__H3">Genocida</h3>
+
+          <p class="rutas__P">En esta ruta el jugador ya experimento con las anteriores.</p>
+
+          <ul class="rutas__ul">
+            <li class="rutas__li"><p>Debemos matar a TODOS los enemigos del juego.</p></li>
+            <li class="rutas__li"><p>Debemos matar a todos los jefes</p></li>
+          </ul>
+
+          <p class="rutas__P">En esta ruta solo es para experimentar, pero en eso descubrimos otro dato y es que a chara le gusta matar, así es como al matar a todos al final flowey intenta traicionamos pero logramos acabar con el, en esta ruta un personaje sencillo revela su verdadero ser...y nos hace pasar un mal rato...</p>
+
+          <center>
+            <img src="imagenes/genocida.jpg" title="genocida" class="rutas__img">
+          </center>
+
+        </div>
+
+      </article>
+
+    </section>
+
+    
+</body>
+</html>
